@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		A9D2E3E42744A5C40085DB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E3E32744A5C40085DB26 /* AppDelegate.swift */; };
 		A9D2E3E62744A5C40085DB26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E3E52744A5C40085DB26 /* SceneDelegate.swift */; };
-		A9D2E3E82744A5C40085DB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E3E72744A5C40085DB26 /* ViewController.swift */; };
+		A9D2E3E82744A5C40085DB26 /* AccessoryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E3E72744A5C40085DB26 /* AccessoryDemoViewController.swift */; };
 		A9D2E3EB2744A5C40085DB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E3E92744A5C40085DB26 /* Main.storyboard */; };
 		A9D2E3ED2744A5C60085DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E3EC2744A5C60085DB26 /* Assets.xcassets */; };
 		A9D2E3F02744A5C60085DB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E3EE2744A5C60085DB26 /* LaunchScreen.storyboard */; };
 		A9D2E3F82744A6030085DB26 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E3F72744A6030085DB26 /* File.swift */; };
+		BFCED11E2B313D5B00FA728D /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCED11D2B313D5B00FA728D /* CoreBluetooth.swift */; };
+		BFD607FF2B4C276B004624D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD607FE2B4C276B004624D1 /* SecondViewController.swift */; };
+		BFD608012B4C2778004624D1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD608002B4C2778004624D1 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9D2E3E02744A5C40085DB26 /* NearbyInteractionByMultipeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyInteractionByMultipeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D2E3E32744A5C40085DB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D2E3E52744A5C40085DB26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9D2E3E72744A5C40085DB26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9D2E3E72744A5C40085DB26 /* AccessoryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryDemoViewController.swift; sourceTree = "<group>"; };
 		A9D2E3EA2744A5C40085DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9D2E3EC2744A5C60085DB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D2E3EF2744A5C60085DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D2E3F12744A5C60085DB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D2E3F72744A6030085DB26 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BFCED11D2B313D5B00FA728D /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
+		BFD607FE2B4C276B004624D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BFD608002B4C2778004624D1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				A9D2E3E32744A5C40085DB26 /* AppDelegate.swift */,
 				A9D2E3E52744A5C40085DB26 /* SceneDelegate.swift */,
-				A9D2E3E72744A5C40085DB26 /* ViewController.swift */,
+				BFCED11D2B313D5B00FA728D /* CoreBluetooth.swift */,
+				A9D2E3E72744A5C40085DB26 /* AccessoryDemoViewController.swift */,
 				A9D2E3F72744A6030085DB26 /* File.swift */,
 				A9D2E3E92744A5C40085DB26 /* Main.storyboard */,
 				A9D2E3EC2744A5C60085DB26 /* Assets.xcassets */,
 				A9D2E3EE2744A5C60085DB26 /* LaunchScreen.storyboard */,
 				A9D2E3F12744A5C60085DB26 /* Info.plist */,
+				BFD607FE2B4C276B004624D1 /* SecondViewController.swift */,
+				BFD608002B4C2778004624D1 /* ThirdViewController.swift */,
 			);
 			path = NearbyInteractionByMultipeerConnectivity;
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D2E3E82744A5C40085DB26 /* ViewController.swift in Sources */,
+				BFD607FF2B4C276B004624D1 /* SecondViewController.swift in Sources */,
+				A9D2E3E82744A5C40085DB26 /* AccessoryDemoViewController.swift in Sources */,
 				A9D2E3F82744A6030085DB26 /* File.swift in Sources */,
+				BFD608012B4C2778004624D1 /* ThirdViewController.swift in Sources */,
+				BFCED11E2B313D5B00FA728D /* CoreBluetooth.swift in Sources */,
 				A9D2E3E42744A5C40085DB26 /* AppDelegate.swift in Sources */,
 				A9D2E3E62744A5C40085DB26 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,7 +309,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyInteractionByMultipeerConnectivity/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "NI by MC";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "For exchanging the discovery token.";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -329,7 +341,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyInteractionByMultipeerConnectivity/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "NI by MC";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "For exchanging the discovery token.";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
